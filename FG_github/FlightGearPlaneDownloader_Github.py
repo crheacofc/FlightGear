@@ -37,6 +37,6 @@ git_page = e1.get()
 
 os.chdir("/Applications/FlightGear.app/Contents/Resources/data/Aircraft/")
 #check is directory already exists
-os.system("git clone " + git_page)
+os.system("git clone " + str(git_page))
 
 
